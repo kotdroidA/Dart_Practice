@@ -1,4 +1,3 @@
-
-   main(){
-	print("hello dart");
-     }
+main() {
+  print("hello dart");
+}
