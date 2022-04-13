@@ -69,4 +69,39 @@ main() {
     }
   }
   print("intersection of 2 list : ${intersection}");
+
+  /*Ask the user for a string and print out whether this string is a 
+  palindrome or not.*/
+
+  stdout.write("please enter a word.");
+  String? word = stdin.readLineSync();
+  if (word == null) {
+    return;
+  }
+  bool? isPalindrome;
+  for (int i = 0; i < word.length; i++) {
+    for (int j = word.length - 1; j >= 0; j--) {
+      if (word[i] == word[j]) {
+        isPalindrome = true;
+      } else {
+        isPalindrome = false;
+      }
+    }
+  }
+  print("is palindrome : ${isPalindrome}");
+
+  /*Let’s say you are given a list saved in a variable:
+  a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]. 
+  Write a Dart code that takes this list and makes a new list that has only
+  the even elements of this list in it.*/
+
+  var list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100];
+
+  list.forEach((element) {
+    if (element % 2 == 0) {
+      print(" this even numbers : ${element}");
+    }
+  });
+
+  //Make a two-player Rock-Paper-Scissors game against computer.
 }
