@@ -102,6 +102,4 @@ main() {
       print(" this even numbers : ${element}");
     }
   });
-
-  //Make a two-player Rock-Paper-Scissors game against computer.
 }
