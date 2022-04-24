@@ -1,7 +1,7 @@
 class Student {
   var name;
   Student(name) {
-    this.name;
+    this.name = name;
   }
   printName() {
     print("I am $name.");

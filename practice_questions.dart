@@ -63,8 +63,8 @@ main() {
           continue;
         }
       }
-      if (i == j) {
-        intersection.add(j);
+      if (c[i] == b[j]) {
+        intersection.add(b[j]);
       }
     }
   }

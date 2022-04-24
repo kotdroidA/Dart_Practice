@@ -12,7 +12,7 @@ class Room extends Home {
     print("This is room class .");
   }
   Room.info(color, name, area) : super.details(name, area) {
-    print("room color is ${color}");
+    print("room color is ${color}.");
   }
 }
 

@@ -14,7 +14,7 @@ class Teacher {
   Teacher.intro(this.name, this.age, {this.subject: "hindi", this.address});
   void printInfo() {
     print(
-        "I am ${name}. I teach ${subject}.I am ${age} year old. I live in ${address}");
+        "I am ${name}. I teach ${subject}.I am ${age} year old. I live in ${address}.");
   }
 }
 
